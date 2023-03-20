@@ -3,3 +3,9 @@
     padding: 0;
     margin: 0;
 }
+header{
+    width: auto;
+    height: 120px;
+    border-bottom: 3px black solid;
+    background-color:#556B2F;
+}
