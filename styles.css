@@ -5,7 +5,32 @@
 }
 header{
     width: auto;
-    height: 120px;
+    height: 123px;
     border-bottom: 3px black solid;
     background-color:#556B2F;
+    display: flex;
 }
+body{
+    background-image: url(/picture/background.jpg);
+}
+#headerLogo{
+    position: absolute;
+    left:60px;
+    top:20px;
+}
+#headerNav{
+    margin:auto 60px 14px auto;
+}
+#headerNav ul{
+    display: flex;
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    font-size: 32px;
+    color: white;
+}
+#headerNav li{
+    margin-right: 8px;
+}
+
