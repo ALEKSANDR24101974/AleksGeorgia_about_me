@@ -9,6 +9,7 @@ header{
     border-bottom: 3px black solid;
     background-color:#556B2F;
     display: flex;
+    min-width: 1143px;
 }
 body{
     background-image: url(/picture/background.jpg);
@@ -33,4 +34,19 @@ a{
 #headerNav li{
     margin-right: 8px;
 }
-
+#oglGlavnoe{
+    margin-top:30px;
+    margin-left: 45%;
+    font-size: 52px;
+    font-family: "Times New Roman", Times, serif;
+}
+.bodyGlavnoe{
+    width: 800px;
+    height:2000px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px dotted black;
+}
+#fotoMe{
+    float: right;
+}
