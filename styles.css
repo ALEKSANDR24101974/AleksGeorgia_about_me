@@ -11,9 +11,9 @@ header{
     display: flex;
     min-width: 1143px;
 }
-body{
+/*body{
     background-image: url(/picture/background.jpg);
-}
+}*/
 #headerLogo{
     position: absolute;
     left:60px;
@@ -46,7 +46,15 @@ a{
     margin-left: auto;
     margin-right: auto;
     border: 1px dotted black;
+    box-sizing: border-box;
 }
 #fotoMe{
     float: right;
+}
+#Glav{
+    text-align: center;
+    font-size: 37px;
+}
+.textGlavnoe{
+    font-size:26px;
 }
