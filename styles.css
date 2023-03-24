@@ -36,7 +36,7 @@ a{
 }
 #oglGlavnoe{
     margin-top:30px;
-    margin-left: 45%;
+    margin-left: 15%;
     font-size: 52px;
     font-family: "Times New Roman", Times, serif;
 }
@@ -45,7 +45,7 @@ a{
     height:2800px;
     margin-left: auto;
     margin-right: auto;
-    border: 1px dotted black;
+    /*border: 1px dotted black;*/
     box-sizing: border-box;
 }
 #fotoMe{
