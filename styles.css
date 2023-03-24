@@ -41,8 +41,8 @@ a{
     font-family: "Times New Roman", Times, serif;
 }
 .bodyGlavnoe{
-    width: 800px;
-    height:2000px;
+    width: 992px;
+    height:2800px;
     margin-left: auto;
     margin-right: auto;
     border: 1px dotted black;
@@ -54,7 +54,9 @@ a{
 #Glav{
     text-align: center;
     font-size: 37px;
+    margin-top: 20px;
 }
 .textGlavnoe{
     font-size:26px;
+    margin-top: 10px;
 }
