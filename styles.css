@@ -22,7 +22,7 @@ header{
 #headerNav{
     margin:auto 60px 14px auto;
 }
-#headerNav ul{
+#headerNav>nav>ul{
     display: flex;
     list-style-type: none;
 }
@@ -31,7 +31,7 @@ a{
     font-size: 32px;
     color: white;
 }
-#headerNav li{
+#headerNav>nav>li{
     margin-right: 8px;
 }
 #oglGlavnoe{
@@ -67,4 +67,7 @@ a{
     position:fixed;
     left:10px;
     top:128px;
+}
+.navV{
+    list-style-type: none;
 }
