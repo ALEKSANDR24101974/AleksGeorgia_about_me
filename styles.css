@@ -85,6 +85,15 @@ a{
     /*width: 300px;
     height: 500px;*/
   background-image: url("./logo/logo_up.png"); 
-    background-repeat: repeat-x;
+    background-repeat: no-repeat;
     font-size: 30px;
+   /* background-position: right;*/
+    background-attachment:fixed;
+    margin-left:20px;
+    border-left-style:dotted;
+    border-radius:5px;
+    outline: solid red 5px;
+}
+.textGlavnoe{
+    opacity: 0.2;
 }
