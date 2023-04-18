@@ -81,3 +81,10 @@ a{
 #city0>a:active{
     color: red;
 }
+.textBack{
+    /*width: 300px;
+    height: 500px;*/
+  background-image: url("./logo/logo_up.png"); 
+    background-repeat: repeat-x;
+    font-size: 30px;
+}
