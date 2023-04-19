@@ -95,5 +95,29 @@ a{
     outline: solid red 5px;
 }
 .textGlavnoe{
-    opacity: 0.2;
+    opacity: 1;
+    text-indent:15%;
+}
+.textGlavnoe>a{
+ color: red;
+    text-decoration: none;
+}
+#glan{
+    text-transform: uppercase;
+}
+#biglan{
+    text-transform: capitalize;
+}
+#dateK{
+    text-decoration: underline blue dotted;
+   /*text-decoration: overline red;*/
+    text-decoration-thickness: 6px;
+    text-underline-offset: 10px;
+    text-underline-position: under;
+}
+.yury{
+    text-decoration: underline solid;
+    text-underline-position: under;
+   /* text-indent:50px;*/
+    font-style:oblique;
 }
